@@ -21,3 +21,4 @@ deploy:
   provider: heroku
   api-key: $HEROKU_API_KEY
   app: dc-linux
+  travis encrypt e678bcd4-9db5-4c81-8fa2-c31a716062e2 --add deploy.api_key --org
